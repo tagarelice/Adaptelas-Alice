@@ -1,0 +1,68 @@
+*{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#barra{
+    background-color: rgb(89, 12, 111);
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+}
+
+#nav{
+    color : aliceblue;
+    padding-left: 3%;
+}
+
+body {
+    background-color: rgb(191, 147, 232);
+}
+
+body> h1 {
+    text-align: center;
+    color: rgb(89, 12, 111)
+}
+
+
+body> p {
+    text-align: justify;
+    color: rgb(89, 12, 111);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#camaleao{
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+}
+
+#titulo{
+    text-align: center;
+}
+
+.fim{
+    background-color: rgb(89, 12, 111);
+    margin: 0%;
+    color: white;
+}
+    
+#texto{
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+#roxo{
+    background-color: rgb(89, 12, 111) ;
+}
+
+#rodape{
+    color:  rgb(89, 12, 111);
+    text-align: center;
+    margin: 0%;
+}
