@@ -1,68 +1,140 @@
-*{
+* {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-}
+    }
 
-#barra{
-    background-color: rgb(89, 12, 111);
-    padding-top: 3%;
-    padding-bottom: 2%;
-    padding-left: 3%;
-}
-
-#nav{
-    color : aliceblue;
-    padding-left: 3%;
+#logo{
+    padding-left: 10%;
 }
 
 body {
     background-color: rgb(191, 147, 232);
+    margin: 0%;
+    width: 100%;
 }
 
-body> h1 {
+.body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
     text-align: center;
     color: rgb(89, 12, 111)
 }
 
+h1 d{
+    font-size: 50px;
+    font-weight: bolder;
+}
 
-body> p {
+p {
     text-align: justify;
     color: rgb(89, 12, 111);
     padding-left: 3%;
     padding-right: 3%;
 }
 
-#camaleao{
+#camaleao {
     padding-top: 3%;
-    padding-left: 3%;
+    padding-left: 10%;
     padding-bottom: 2%;
 }
 
-#titulo{
+.fim h2{
     text-align: center;
+    margin-left: 5%;
 }
 
-.fim{
+.fim {
     background-color: rgb(89, 12, 111);
     margin: 0%;
     color: white;
+    width: 100%;
 }
-    
-#texto{
+
+#texto {
     text-align: justify;
-    padding-left: 3%;
-    padding-right: 3%;
+    color: white;
     padding-bottom: 2%;
+    font-size: 20px;
+    width: 50%;
+    margin-left: 25%;
 }
 
-#roxo{
-    background-color: rgb(89, 12, 111) ;
-}
-
-#rodape{
-    color:  rgb(89, 12, 111);
-    text-align: center;
+#roxo {
+    background-color: rgb(89, 12, 111);
+    width: 100%;
     margin: 0%;
+    display: flex;
+    align-items: center;
+}
+
+#rodape {
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.menu {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 100%;
+    margin-left: 30%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    gap: 10%;
+    }
+
+#cabeçalho{
+    width: 100%;
+    background-color: rgb(89, 12, 111);
+
+}
+
+.caixa {
+    margin-left: 50px;
+    color: white;
+    text-underline-offset: ;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(191, 147, 232);
+}
+
+.corpo{
+    display: flex;
+    /* flex-direction: column; */
+    width: 80%;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    gap: 5%;
+}
+
+.textocorpo p{
+font-size: 25px;
+}
+
+p b{
+    color: rgb(89, 12, 111);
+    font-weight: bolder;
+    margin-right: 10px;
 }
