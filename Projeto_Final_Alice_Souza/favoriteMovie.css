@@ -17,18 +17,18 @@ main {
     padding: 1.5rem;
 }
 
-.div-informacoes > h2 {
+.div-informacoes>h2 {
     color: var(--branco);
     margin-bottom: 2rem;
 }
 
-.div-informacoes > div > h2 {
+.div-informacoes>div>h2 {
     color: var(--branco);
     margin-bottom: 1rem;
     font-weight: 600;
 }
 
-.div-informacoes > div > p {
+.div-informacoes>div>p {
     color: var(--roxo);
     font-weight: 800;
     margin-bottom: 0.5rem;
@@ -46,11 +46,15 @@ main {
     color: var(--branco)
 }
 
-.div-personagens > h2 {
+.div-personagens>h2 {
     margin-bottom: 2rem;
 }
 
-.cards{ 
+.div-personagens>h2 {
+    margin-bottom: 2rem;
+}
+
+.cards {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,16 +62,149 @@ main {
     gap: 2rem;
 }
 
-.cards > div {
+.cards>div {
     background-color: var(--roxo);
     border-radius: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     width: 25rem;
     height: 30rem;
 }
 
-.cards > div > img{
+.cards>div>h2 {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards>div>img {
     width: 100%;
     object-fit: cover;
     height: 27rem;
-    border-radius: 0 0 1.5rem 1.5rem ;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+/*Botão*/
+#abrir-modal {
+    border: none;
+    background-color: var(--roxo);
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-weight: 800;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--branco);
+}
+
+
+/*Modal*/
+
+.div-modal {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--branco);
+    height: 60rem;
+}
+
+.div-modal>div {
+    background-color: var(--transparente-escuro);
+    margin: 5rem auto;
+    width: 40rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-modal>div>h2 {
+    margin-top: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+input {
+    width: 19rem;
+    border: none;
+    color: var(--roxo);
+    padding-left: 0.5rem;
+    text-align: center;
+    border-radius: 2rem;
+    font-weight: 700;
+    height: 1.5rem;
+}
+
+input ::placeholder {
+    border: none;
+    color: var(--roxo);
+    font-weight: 700;
+    text-align: center;
+}
+
+.input-arquivo {
+    color: var(--branco);
+    padding-left: 0;
+    border-radius: 0;
+    padding-left: 0;
+
+}
+
+form>button {
+    border: none;
+    color: var(--roxo);
+    font-weight: 700;
+    width: 15rem;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+    height: 1.5rem;
+}
+
+.escondida {
+    display: none;
+}
+
+
+/* Estilos adicionais para dispositivos menores */
+@media (max-width: 768px) {
+    header > h1{
+        font-size: large;
+        margin-left: 1rem;
+    }
+    .link-pagina{
+        font-size: 0.9rem;
+        margin-right: 1rem;
+    }
+    .div-informacoes, .div-personagens {
+        width: 90%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    
+    .cards>div {
+        margin-bottom: 40px;
+        width: 90%;
+    }
+
+    #abrir-modal {
+        width: 100%;
+        max-width: 12rem;
+    }
 }

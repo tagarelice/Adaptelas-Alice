@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="./favoriteMovie.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="./script.js"></script>
 </head>
 
 
@@ -53,8 +53,42 @@
             </div>
 
         </div>
-
+        <button id="abrir-modal"> Editar Filme</button>
     </main>
+    <div class="escondida div-modal" id="modal">
+        <div>
+            <h2>Adicionar Filme ou Série</h2>
+            <form action="" id="novo filme">
+                <label for="novo-nome">Nome</label>
+                <input type="text" placeholder="Nome do Filme" id="novo-nome">
+
+                <label for="nova-data">Data</label>
+                <input type="date" placeholder="Data em que assistiu" id="nova-data">
+
+                <label for="nova-descricao">Descrição</label>
+                <input type="text" placeholder="Descrição do Filme" id="nova-descricao">
+
+                <label for="novo-p1">Nome do Personagem 1</label>
+                <input type="text" placeholder="Nome do personagem um" id="novo-p1">
+
+                <label for="nova-imagem-p1">Imagem do Personagem 1</label>
+                <input type="file" placeholder="Imagem do personagem um" id="nova-imagem-p1" class="input-arquivo">
+
+                <label for="novo-p2">Nome do Personagem 2</label>
+                <input type="text" placeholder="Nome do personagem dois" id="novo-p2">
+
+                <label for="nova-imagem-p2">Imagem do Personagem 2</label>
+                <input type="file" placeholder="Imagem do personagem dois" id="nova-imagem-p2" class="input-arquivo">
+
+                <label for="novo-p3">Nome do Personagem 3</label>
+                <input type="text" placeholder="Nome do personagem tres" id="novo-p3">
+
+                <label for="nova-imagem-p3">Imagem do Personagem 3</label>
+                <input type="file" placeholder="Imagem do personagem tres" id="nova-imagem-p3" class="input-arquivo">
+                <button id="novo-filme">Salvar</button>
+            </form>
+        </div>
+    </div>
     <footer>
         <p> Desenvolvido por <b>Adapti </b> com <i class="fa fa-solid fa-heart"></i></p>
     </footer>

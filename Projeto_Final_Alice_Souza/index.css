@@ -104,3 +104,16 @@ main{
 .marcada {
     color: var(--roxo);
 }
+
+/*responsividade*/
+
+@media screen and (max-width: 425px){
+    .banner > img{
+        width: 200px;
+        margin-right: 1rem;
+    }
+    .banner > h2{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+  }
