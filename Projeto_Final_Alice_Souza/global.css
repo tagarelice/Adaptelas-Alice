@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito sans", sans-serif ;
+ }
+
+ :root {
+    --roxo: #610588;
+    --transparente-escuro: #61058898;
+    --claro-roxo: #E7CDF3;
+    --transparente-roxo: #E7CDF398;
+    --branco: #F2F2F2;
+ }
+/*body*/
+
+body {
+  background-image: url(./imagens/fundoMeuCinema.png);
+ }
+
+/*header*/
+header {
+    background-color:var(--roxo);
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+   }
+header > h1 {
+    margin-left: 2rem;
+}
+
+header > ul > li {
+    margin-right: 2rem;
+    list-style: none;
+}
+
+.link-pagina {
+   color: var(--branco);
+   text-decoration: none;
+   }
+
+/*footer*/
+
+footer {
+    background-color: var(--roxo);
+    color: var(--branco);
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+   }

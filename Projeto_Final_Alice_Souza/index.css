@@ -1,0 +1,28 @@
+/*banner*/
+.banner{
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("./imagens/filmeFavorito.jpg");
+    background-size: cover;
+    background-position: center;
+
+    }
+
+.banner > img {
+    width: 300px;
+    margin-right: 2rem;
+    }
+
+.banner > h2 {
+    margin-left: 2rem;
+    font-size: 2rem;
+    
+    }
+
+
+    {
+    
+    }
