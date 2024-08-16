@@ -1,3 +1,7 @@
+/*main*/
+main{
+    margin-bottom: 3rem;
+}
 /*banner*/
 .banner{
     color: var(--branco);
@@ -5,9 +9,10 @@
     justify-content: space-between;
     align-items: center;
     height: 20rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("./imagens/filmeFavorito.jpg");
+    background-image: linear-gradient(rgba(97, 5, 136, 0.5), rgba(0,0,0,0.5)), url("./imagens/filmefav.jpg");
     background-size: cover;
     background-position: center;
+    margin-bottom: 3rem;
 
     }
 
@@ -19,10 +24,83 @@
 .banner > h2 {
     margin-left: 2rem;
     font-size: 2rem;
-    
+    }
+/*div-cards*/
+
+.div-cards {
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+/*card*/
+
+ .card{
+    width: 21.25rem;
+       
     }
 
+.cabecalho{
+    background-color: var(--roxo);
+    color: var(--branco);
+    border-radius: 2rem 2rem 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    {
-    
-    }
+.cabecalho > img {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    max-height: 28rem;
+}
+
+.cabecalho > h2 {
+    font-size: 2rem;
+    margin: 0 0.5rem 0 0.5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    background-color: var(--claro-roxo);
+    color: var(--roxo);
+    border-radius: 0 0 1.5rem 1.5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo > p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-height: 3rem;
+    min-height: 3rem;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.estrelas > button {
+    background-color: transparent;
+    border: none;
+}
+
+.marcada {
+    color: var(--roxo);
+}

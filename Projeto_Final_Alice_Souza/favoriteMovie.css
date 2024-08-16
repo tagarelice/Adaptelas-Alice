@@ -1,0 +1,73 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+/*informações*/
+
+.div-informacoes {
+    background-color: var(--transparente-roxo);
+    width: 60rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+}
+
+.div-informacoes > h2 {
+    color: var(--branco);
+    margin-bottom: 2rem;
+}
+
+.div-informacoes > div > h2 {
+    color: var(--branco);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.div-informacoes > div > p {
+    color: var(--roxo);
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+/*personagens*/
+
+.div-personagens {
+    background-color: var(--transparente-roxo);
+    font-weight: 60rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--branco)
+}
+
+.div-personagens > h2 {
+    margin-bottom: 2rem;
+}
+
+.cards{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem 0 1rem;
+    gap: 2rem;
+}
+
+.cards > div {
+    background-color: var(--roxo);
+    border-radius: 1.5rem;
+    width: 25rem;
+    height: 30rem;
+}
+
+.cards > div > img{
+    width: 100%;
+    object-fit: cover;
+    height: 27rem;
+    border-radius: 0 0 1.5rem 1.5rem ;
+}
