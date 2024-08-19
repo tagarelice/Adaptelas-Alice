@@ -105,6 +105,14 @@ main{
     color: var(--roxo);
 }
 
+div.conteudo {
+    height: 10rem;
+    gap: 2rem;
+}
+
+div.conteudo > p {
+    margin: 1rem;
+}
 /*responsividade*/
 
 @media screen and (max-width: 425px){
